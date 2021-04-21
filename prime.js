@@ -10,10 +10,9 @@ function Check_Prime(n1){
     var check = true;
     if(n1==1){
         check = false;
-    }else if (n1==2){
-        check = false;
-    }else if(n1>2){
-        for(let i=2; i<n1; i++){
+    }
+    }else if(n1>1){
+        for(let i=1; i<n1; i++){
             if(n1%i==0){
                 check = false;
                 break;
